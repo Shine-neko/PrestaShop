@@ -28,6 +28,9 @@
 if (!defined('_PS_MODE_DEV_')) {
     define('_PS_MODE_DEV_', true);
 }
+
+define('PS_DISABLE_OVERRIDES', false);
+
 /* Compatibility warning */
 define('_PS_DISPLAY_COMPATIBILITY_WARNING_', true);
 if (_PS_MODE_DEV_ === true) {
